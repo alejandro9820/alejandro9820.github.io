@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css2.css">
 </head>
 <body>
+     
     <div class="container">
+            
         <p>
                 Mi Amor, <br>
 
@@ -282,6 +284,20 @@
         
                     });
                 })(jQuery);
+
+                const playSound = function() {
+    let element = document.createElement('div');
+    element.setAttribute('style', 'display: none');
+    element.innerHTML = `
+      <audio autoplay loop>
+        <source src="song.mp3" type="audio/mpeg">
+      </audio>
+    `;
+    document.body.appendChild(element);
+    document.removeEventListener('click', playSound);
+}
+
+document.addEventListener('click', playSound);
             </script>
 </body>
 </html>
