@@ -122,7 +122,7 @@ body {
 
 .ag-timeline_line {
     width: 2px;
-    background-color: #ac9c9c;
+    background-color: #eaf1f0;
 
     position: absolute;
     top: 2px;
@@ -166,7 +166,7 @@ body {
     line-height: 50px;
     width: 50px;
     border: 3px solid #d85c5c;
-    background-color: #1d1b1b;
+    background-color: #eaecf1;
 
     text-align: center;
     font-family: "Homer Simpson UI";
@@ -411,7 +411,7 @@ figure {
     width: 290px;
     height: 395px;
     padding: 20px 20px;
-    background-image: url("./images/WhatsApp\ Image\ 2024-02-13\ at\ 17.27.48.jpeg");
+    background-image: url("./images/1.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -450,7 +450,7 @@ figure:hover {
 }
 
 figure:hover:after {
-    content: "♣︎";
+    content: "";
     background-color: #b85454cc;
     color: rgb(0, 0, 0);
     font-size: 72px;
@@ -527,7 +527,7 @@ figure figcaption p {
     width: 290px;
     height: 395px;
     padding: 20px 20px;
-    background-image: url("./images/WhatsApp\ Image\ 2024-02-13\ at\ 17.27.48\ \(1\).jpeg");
+    background-image: url("./images/2.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -566,7 +566,7 @@ figure figcaption p {
 }
 
 .brillo figure:hover:after {
-    content: "⧫";
+    content: "";
     background-color: #b85454cc;
     color: rgb(255, 0, 0);
     font-size: 85px;
@@ -644,7 +644,7 @@ figure figcaption p {
     width: 290px;
     height: 395px;
     padding: 20px 20px;
-    background-image: url("./images/WhatsApp\ Image\ 2024-02-13\ at\ 17.27.48\ \(2\).jpeg");
+    background-image: url("./images/3.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -683,7 +683,7 @@ figure figcaption p {
 }
 
 .pica figure:hover:after {
-    content: "♠";
+    content: "";
     background-color: #b85454cc;
     color: rgb(0, 0, 0);
     font-size: 72px;
@@ -761,7 +761,7 @@ figure figcaption p {
     width: 290px;
     height: 395px;
     padding: 20px 20px;
-    background-image: url("./images/WhatsApp\ Image\ 2024-02-13\ at\ 17.27.48\ \(3\).jpeg");
+    background-image: url("./images/4.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -800,7 +800,7 @@ figure figcaption p {
 }
 
 .cora figure:hover:after {
-    content: "♥";
+    content: "";
     background-color: #b85454cc;
     color: rgb(255, 0, 0);
     font-size: 70px;
@@ -860,6 +860,511 @@ figure figcaption p {
 }
 
 .cora figure figcaption h4>span {
+    background-color: #b85454cc;
+}
+
+.pica figure figcaption p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container{
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+    color: rgb(29, 20, 20);
+    line-height: 150%;
+}
+
+/* CORA1 */
+.cora1 figure {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 290px;
+    height: 395px;
+    padding: 20px 20px;
+    background-image: url("./images/5.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora1 figure:before,
+.cora1 figure:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cora1 figure:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+.cora1 figure:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora1 figure:hover {
+    background-size: 175%;
+}
+
+.cora1 figure:hover:after {
+    content: "";
+    background-color: #b85454cc;
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    z-index: 2;
+}
+
+.cora1 figure:hover .date3 {
+    bottom: -59px;
+}
+
+.cora1 figure:hover figcaption {
+    transform: translateY(-110%);
+}
+
+.cora1 figure .date3 {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #632727;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cora1 figure .date3 span {
+    color: white;
+    line-height: 1;
+}
+
+.cora1 figure .date3 span:first-child {
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cora1 figure .date3 span:last-child {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cora1 figure figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+}
+
+.cora1 figure figcaption h4 {
+    margin: 0 0 5px;
+    font-family: "Homer Simpson UI";
+    font-size: 24px;
+    line-height: 1.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.cora1 figure figcaption h4>span {
+    background-color: #b85454cc;
+}
+
+.pica figure figcaption p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container{
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+    color: rgb(29, 20, 20);
+    line-height: 150%;
+}
+
+
+/* CORA2 */
+.cora2 figure {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 290px;
+    height: 395px;
+    padding: 20px 20px;
+    background-image: url("./images/6.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora2 figure:before,
+.cora2 figure:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cora2 figure:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+.cora2 figure:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora2 figure:hover {
+    background-size: 175%;
+}
+
+.cora2 figure:hover:after {
+    content: "";
+    background-color: #b85454cc;
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    z-index: 2;
+}
+
+.cora2 figure:hover .date3 {
+    bottom: -59px;
+}
+
+.cora2 figure:hover figcaption {
+    transform: translateY(-110%);
+}
+
+.cora2 figure .date3 {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #632727;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cora2 figure .date3 span {
+    color: white;
+    line-height: 1;
+}
+
+.cora2 figure .date3 span:first-child {
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cora2 figure .date3 span:last-child {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cora2 figure figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+}
+
+.cora2 figure figcaption h4 {
+    margin: 0 0 5px;
+    font-family: "Homer Simpson UI";
+    font-size: 24px;
+    line-height: 1.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.cora2 figure figcaption h4>span {
+    background-color: #b85454cc;
+}
+
+.pica figure figcaption p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container{
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+    color: rgb(29, 20, 20);
+    line-height: 150%;
+}
+
+/* CORA3 */
+.cora3 figure {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 290px;
+    height: 395px;
+    padding: 20px 20px;
+    background-image: url("./images/7.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora3 figure:before,
+.cora3 figure:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cora3 figure:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+.cora3 figure:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora3 figure:hover {
+    background-size: 175%;
+}
+
+.cora3 figure:hover:after {
+    content: "";
+    background-color: #b85454cc;
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    z-index: 2;
+}
+
+.cora3 figure:hover .date3 {
+    bottom: -59px;
+}
+
+.cora3 figure:hover figcaption {
+    transform: translateY(-110%);
+}
+
+.cora3 figure .date3 {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #632727;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cora3 figure .date3 span {
+    color: white;
+    line-height: 1;
+}
+
+.cora3 figure .date3 span:first-child {
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cora3 figure .date3 span:last-child {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cora3 figure figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+}
+
+.cora3 figure figcaption h4 {
+    margin: 0 0 5px;
+    font-family: "Homer Simpson UI";
+    font-size: 24px;
+    line-height: 1.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.cora3 figure figcaption h4>span {
+    background-color: #b85454cc;
+}
+
+.pica figure figcaption p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container{
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+    color: rgb(29, 20, 20);
+    line-height: 150%;
+}
+
+/* CORA4 */
+.cora4 figure {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 290px;
+    height: 395px;
+    padding: 20px 20px;
+    background-image: url("./images/8.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora4 figure:before,
+.cora4 figure:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cora4 figure:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+.cora4 figure:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.cora4 figure:hover {
+    background-size: 175%;
+}
+
+.cora4 figure:hover:after {
+    content: "";
+    background-color: #b85454cc;
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    z-index: 2;
+}
+
+.cora4 figure:hover .date3 {
+    bottom: -59px;
+}
+
+.cora4 figure:hover figcaption {
+    transform: translateY(-110%);
+}
+
+.cora4 figure .date3 {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #632727;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cora4 figure .date3 span {
+    color: white;
+    line-height: 1;
+}
+
+.cora4 figure .date3 span:first-child {
+    font-family: "Homer Simpson UI";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cora4 figure .date3 span:last-child {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cora4 figure figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+}
+
+.cora4 figure figcaption h4 {
+    margin: 0 0 5px;
+    font-family: "Homer Simpson UI";
+    font-size: 24px;
+    line-height: 1.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.cora4 figure figcaption h4>span {
     background-color: #b85454cc;
 }
 

@@ -19,10 +19,12 @@ background-image: url('images/mini-hearth.png');
 background-size: 50%;
 }
 .card {
+margin-top: 200px;
 border-radius: 15px;
 padding: 20px;
 text-align: center;
-width: 300px;
+width: 800px;
+height: 200px;
 }
 .title {
 font-size: 24px;
